@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 openidentityplatform/openam:14.8.1
+FROM openidentityplatform/openam:14.8.1
 
 COPY config.cfg /config/config.cfg
 
